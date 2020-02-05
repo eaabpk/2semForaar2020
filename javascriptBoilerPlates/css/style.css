@@ -3,3 +3,17 @@
  * purpose: styles, animation etc
  * further development: meyer reset perhaps?
  **/
+
+img {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px 20px 5px;
+  
+}
+
+h2 {
+    text-align: center;
+    font-family: Helvetica;
+    padding-top: 15px;
+}

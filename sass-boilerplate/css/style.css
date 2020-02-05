@@ -3,17 +3,41 @@
 /* selected colors for this project */
 /* nested syntax, how cool is that? */
 /* mixins */
+/* line 20, ../../GITHUBCLONES/2semForaar2020/sass-boilerplate/sass/style.scss */
+.box {
+  width: 90px;
+  height: 90px;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  background-color: #fff;
+}
+
 /* scss samples */
-/* line 13, ../../../../../../../../../../../../../Users/per/Documents/html_root/localhost/2020-faa-2sem/2semForaar2020/sass-boilerplate/sass/style.scss */
+/* line 29, ../../GITHUBCLONES/2semForaar2020/sass-boilerplate/sass/style.scss */
 body {
   background-color: #1cc867;
   color: #00ff00;
 }
 
 /* nested syntax */
-/* line 20, ../../../../../../../../../../../../../Users/per/Documents/html_root/localhost/2020-faa-2sem/2semForaar2020/sass-boilerplate/sass/style.scss */
+/* line 36, ../../GITHUBCLONES/2semForaar2020/sass-boilerplate/sass/style.scss */
 main p {
   color: #fff;
 }
+
+/* line 39, ../../GITHUBCLONES/2semForaar2020/sass-boilerplate/sass/style.scss */
+main p a {
+  text-decoration: none;
+  background-color: #000560;
+  color: #fff;
+}
+
+/* line 45, ../../GITHUBCLONES/2semForaar2020/sass-boilerplate/sass/style.scss */
+main p a word {
+  color: #870098;
+}
+
+@keyframes;
 
 /*# sourceMappingURL=style.css.map */

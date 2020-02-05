@@ -4,10 +4,26 @@
 /* selected colors for this project */
 $green: #1cc867;
 $white: #fff;
+$cta: #0000ff;
+$a: #000560;
+$spword: #870098;
 
 /* nested syntax, how cool is that? */
 
-/* mixins */ 
+/* mixins */
+@mixin transform ($property) {
+    -webkit-transform: $property;
+    -ms-transform: $property;
+    transform: $property;
+}
+
+.box  {
+    
+    width: 90px;
+    height: 90px;
+    @include transform(rotate(90deg));
+    background-color: $white;
+}
 
 /* scss samples */
 body {
@@ -19,7 +35,18 @@ body {
 main {
     p {
         color: $white;
+
+        a {
+            text-decoration: none;
+            background-color: $a;
+            color: $white;
+
+
+            word {
+                color: $spword;
+            }
+        }
     }
 }
 
-
+@keyframes
