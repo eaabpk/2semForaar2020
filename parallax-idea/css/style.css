@@ -1,0 +1,74 @@
+/**
+ * file: style.css
+ * project: parallax-idea
+ * purpose: styles, animation etc
+ * further development: meyer reset perhaps?
+ **/
+body,
+h1 {
+    color: #000;
+    text-align: center;
+}
+
+header {
+
+    background: purple;
+    color: #fff;
+    text-align: center;
+
+}
+
+.a {
+    height: 130vh;
+    background-image: url(../images/spring-in-wonderland.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #fff;
+
+}
+
+.b {
+    height: 100vh;
+    background-image: url(../images/magic_forest.jpg);
+    background-size: cover;
+    color: #fff;
+
+}
+
+.c {
+    height: 100vh;
+    background-image: url(../images/wonderland-background-png-2.jpg);
+    background-size: cover;
+    color: #fff;
+
+}
+
+.abracadabra {
+
+    background-image: url(../images/mad.png);
+
+}
+
+#mad {
+    width: 30px;
+
+}
+#anima_1 {
+    margin-left: 20%;
+}
+
+#anima_2 {
+/*margin-left: 35%;*/
+    background-color: darkcyan;
+
+}
+
+#anima_3 {}
+
+
+
+.anima {
+    position: absolute;
+
+
+}
