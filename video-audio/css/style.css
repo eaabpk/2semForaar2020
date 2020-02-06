@@ -1,0 +1,56 @@
+/**
+ * file: style.css
+ * project: video sample
+ **/
+
+body {
+    background-color: #9DC183;
+}
+.mute {
+    border-radius: 15px;
+    background-color: #0B4623;
+    padding: 10px;
+    box-shadow:  5px 6px #888888;
+    color: white;
+}
+
+.silence {
+    font-size: 24px;
+}
+
+.buttons {
+    word-spacing: 20px;
+    margin-top: 2%;
+}
+
+.controls {
+    border-radius: 15px;
+    background-color: white;
+    padding: 10px;
+    box-shadow:  5px 6px #888888;
+    color:#00A572;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+h1 {
+    margin-top: 3%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.content {
+    display: inline-grid;
+}
+
+#myVideo {
+    position: absolute;
+    z-index: 1;
+    margin-top: 23%;
+    margin-left: 30%;
+}
+
+.down-image {
+    display: flex;
+}

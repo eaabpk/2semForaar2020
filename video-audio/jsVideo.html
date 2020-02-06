@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+  <title>JavaScript Boilerplate</title>
+</head>
+<body>
+  <div style="text-align:center"> 
+   <h1>The Blue Butterfly, 2019, Copenhagen Botanical Garden</h1>
+   
+    <!-- content -->
+    <div class="content">
+    <div class="down-image">
+    <img src="images/garden.png" width="520">
+    <img src="images/garden.png" width="520">
+    <img src="images/garden.png" width="520">
+    </div>
+    <video id="myVideo" width="600">
+      <source src="media/butterflies-in-copenhagen-botanical-garden.mp4" type="video/mp4">
+      <!-- below: alternative video formats -->
+      <!-- source src="mov_bbb.ogg" type="video/ogg" -->
+      Your browser does not support HTML5 video.
+    </video><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="down-image">
+     <img src="images/garden.png" width="520">
+     <img src="images/garden.png" width="520">
+     <img src="images/garden.png" width="520">
+     </div>
+     <br><br><br>
+    </div>
+    
+    <!-- buttons -->
+    <div class="buttons">
+    <button class="controls" onclick="playPause()">Play/Pause</button>
+    <button class="controls" onclick="makeBig()">Big</button>
+    <button class="controls" onclick="makeSmall()">Small</button>
+    <button class="controls" onclick="makeNormal()">Normal</button></div><br><br><br>
+    <button class="mute" onclick="soundOff()"><span class="silence">Shhhhhh!</span></button>
+   
+    
+    <p>See <a href="https://www.w3schools.com/jsref/dom_obj_video.asp">this W3 Schools page</a>.</p>
+    </div>
+  <!-- scripts -->
+  <script src="js/js.js"></script>  
+</body>
+</html>
